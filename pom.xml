@@ -346,12 +346,7 @@
           </execution>
         </executions>
       </plugin>
-  
-  <!-- Jacoco coverage -->
-    <groupId>org.jacoco</groupId>
-  <artifactId>jacoco-maven-plugin</artifactId>
-  <version>0.8.6-SNAPSHOT</version>
-                
+       
     </plugins>
   </build>
   <distributionManagement>
@@ -433,21 +428,5 @@
       </build>
     </profile>
    
-  </profiles>
-  <reporting>
-    <plugins>
-      <plugin>
-        <groupId>org.jacoco</groupId>
-        <artifactId>jacoco-maven-plugin</artifactId>
-        <reportSets>
-          <reportSet>
-            <reports>
-              <!-- select non-aggregate reports -->
-              <report>report</report>
-            </reports>
-          </reportSet>
-        </reportSets>
-      </plugin>
-    </plugins>
-  </reporting>
+  </profiles>  
 </project>
